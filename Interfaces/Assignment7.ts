@@ -1,0 +1,13 @@
+interface Book {
+    title: string;
+    isbn: string;
+    description: string;
+    price: number;
+}
+
+var book:Book = {
+    title: "Learning Coding",
+    isbn: "PJHUGYFF98-21",
+    description: "This is beginer book",
+    price: 300,
+}
